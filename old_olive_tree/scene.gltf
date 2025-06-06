@@ -1,0 +1,449 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 20696,
+      "max": [
+        2.5853819847106934,
+        3.5450940132141113,
+        4.538093090057373
+      ],
+      "min": [
+        -2.671226978302002,
+        -2.104630947113037,
+        0.8580520153045654
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 248352,
+      "componentType": 5126,
+      "count": 20696,
+      "max": [
+        0.9999161958694458,
+        0.9991449117660522,
+        0.9998416304588318
+      ],
+      "min": [
+        -0.9999061822891235,
+        -0.9998167157173157,
+        -0.999895453453064
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 20696,
+      "max": [
+        0.9995839595794678,
+        0.9999573230743408,
+        0.9996576905250549,
+        1.0
+      ],
+      "min": [
+        -0.9999839067459106,
+        -0.9999398589134216,
+        -0.9992239475250244,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 20696,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 31044,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 496704,
+      "componentType": 5126,
+      "count": 31150,
+      "max": [
+        2.038213014602661,
+        3.4288620948791504,
+        4.344533920288086
+      ],
+      "min": [
+        -2.2353250980377197,
+        -1.6819039583206177,
+        1.5542320013046265
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 870504,
+      "componentType": 5126,
+      "count": 31150,
+      "max": [
+        0.9998637437820435,
+        0.9999752044677734,
+        0.9998223185539246
+      ],
+      "min": [
+        -0.9999386072158813,
+        -0.9999547004699707,
+        -0.9999289512634277
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 331136,
+      "componentType": 5126,
+      "count": 31150,
+      "max": [
+        0.9999967813491821,
+        0.9997612237930298,
+        0.999973475933075,
+        1.0
+      ],
+      "min": [
+        -0.9999868273735046,
+        -0.9997316002845764,
+        -0.9999169707298279,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 165568,
+      "componentType": 5126,
+      "count": 31150,
+      "max": [
+        0.7633209824562073,
+        0.9684529900550842
+      ],
+      "min": [
+        0.15145200490951538,
+        0.2228740006685257
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 124176,
+      "componentType": 5125,
+      "count": 162642,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1244304,
+      "componentType": 5126,
+      "count": 1651,
+      "max": [
+        2.016592025756836,
+        3.1256089210510254,
+        3.9365720748901367
+      ],
+      "min": [
+        -2.0524330139160156,
+        -1.5340549945831299,
+        -0.06788700073957443
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1264116,
+      "componentType": 5126,
+      "count": 1651,
+      "max": [
+        0.9984529614448547,
+        0.9981103539466858,
+        0.9997826218605042
+      ],
+      "min": [
+        -0.9999210834503174,
+        -0.997778594493866,
+        -0.996495246887207
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 829536,
+      "componentType": 5126,
+      "count": 1651,
+      "max": [
+        0.9998860359191895,
+        0.9997101426124573,
+        0.9920591711997986,
+        1.0
+      ],
+      "min": [
+        -0.9994251132011414,
+        -0.9997061491012573,
+        -0.9990161061286926,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 414768,
+      "componentType": 5126,
+      "count": 1651,
+      "max": [
+        0.9861500263214111,
+        0.9970049858093262
+      ],
+      "min": [
+        0.02981100045144558,
+        0.005638000089675188
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 774744,
+      "componentType": 5125,
+      "count": 8628,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "massive-graphisme (https://sketchfab.com/massive-graphisme)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/old-olive-tree-6328df8a0f214143a880a72b86db2ab4",
+      "title": "Old olive tree"
+    },
+    "generator": "Sketchfab-13.83.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 809256,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 427976,
+      "byteOffset": 809256,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1283928,
+      "byteOffset": 1237232,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 855952,
+      "byteOffset": 2521160,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 3377112,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/olive-leaves_baseColor.png"
+    },
+    {
+      "uri": "textures/olive-leaves_normal.png"
+    },
+    {
+      "uri": "textures/olive-tree-bark_baseColor.png"
+    },
+    {
+      "uri": "textures/olive-tree-bark_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "olive-leaves",
+      "normalTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8011823178082373
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "olive-tree-bark",
+      "normalTexture": {
+        "index": 3
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9781426498102782
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3,
+        4
+      ],
+      "name": "olive-tree.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    },
+    {
+      "mesh": 2,
+      "name": "Object_4"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}
