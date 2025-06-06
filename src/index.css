@@ -136,6 +136,15 @@
     rgba(60, 51, 80, 0) 100%
   );
 }
+.pink-gradient {
+  background: #c27ba0;
+  background: linear-gradient(-90deg, #c27ba0 0%, rgba(60, 51, 80, 0) 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #c27ba0 0%,
+    rgba(60, 51, 80, 0) 100%
+  );
+}
 
 .green-pink-gradient {
   background: "#00cea8";

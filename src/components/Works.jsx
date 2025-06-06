@@ -13,6 +13,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 1)}>
@@ -36,43 +37,60 @@ const ProjectCard = ({
                 src={github}
                 alt="github"
                 className="w-5/6 h-5/6 object-contain transition-transform duration-300 hover:scale-150"
-                />
+              />
             </div>
           </div>
         </div>
-        <div className="mt-5 ">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
+        <div className="mt-5 flex flex-col ">
+          <div className="flex flex-row justify-between">
+            <div className="text-white font-bold text-[24px]">{name}</div>
+            {live_link && (
+              <div className=" flex card-img_hover m-3">
+                <div
+                  onClick={() => window.open(live_link, "_blank")}
+                  className="pink-gradient opacity-50 hover:opacity-80 hover:scale-105 flex justify-center text-[12px] italic p-[5px] items-center rounded-[10px] cursor-pointer"
+                >
+                  see live link!
+                </div>
+              </div>
+            )}
+          </div>
           <p className="text-secondary text-[14px] mt-2 ">{description}</p>
         </div>
         <div className=" flex flex-wrap mt-4 gap-3  ">
           {tags.map((tag) => (
-            <p key={tag.name}  className={`text-[14px]  ${tag.color}`} >#{tag.name}</p>
+            <p key={tag.name} className={`text-[12px]  ${tag.color}`}>
+              #{tag.name}
+            </p>
           ))}
         </div>
       </Tilt>
     </motion.div>
   );
-};
-const Works = () => {
+};const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        {/* <p className={styles.heroSubText}>my projects</p> */}
-        <h2 className={styles.heroHeadText}>My projects.</h2>
+        <h2 className={styles.heroHeadText}> Projects That I’ve Brought to Life</h2>
       </motion.div>
-      <div className="flex full-w">
+      <div className="flex flex-col full-w">
         <motion.p
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           variants={fadeIn("right", "tween", 0.5, 1)}
         >
-          The following projects showcases my skills and experience through
-          real-world examples.
-           
-          <br />Each project is accompanied with a small description and a
-          link to the code repository. <br />
-           {/* It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively. */}
+          From sketchy ideas on paper to full-on interactive experiences — here’s a glimpse into the digital stuff I’ve built.
+        </motion.p>
+        <motion.p
+          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          variants={fadeIn("right", "tween", 1, 1)}
+        >
+          Whether solo hacking at midnight or teaming up for bigger challenges, each project taught me something new.
+        </motion.p>
+        <motion.p
+          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          variants={fadeIn("right", "tween", 1.5, 1)}
+        >
+          Every card below comes with a quick peek + a code link if you’re curious to dive deeper 
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7 ">
@@ -85,3 +103,5 @@ const Works = () => {
 };
 
 export default sectionWrapper(Works, "");
+
+

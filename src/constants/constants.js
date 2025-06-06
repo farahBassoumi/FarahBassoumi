@@ -22,7 +22,6 @@ import {
   typescript,
   threejs,
   java,
-
   logo,
   backend,
   creator,
@@ -30,7 +29,6 @@ import {
   web,
   menu,
   close,
-
   bird,
   piano,
 
@@ -42,12 +40,19 @@ import {
   walking_logo,
   machineLearning,
   devops,
-//projects
-birdy,
-studyFlux,
-ProjectTracker
-
-
+  //projects
+  birdy,
+  studyFlux,
+  ProjectTracker,
+  reality,
+  arcEnJeu,
+  doIt,
+  flightDelay,
+  earth,
+  brain,
+  image,
+  chatgpt,
+  data,
 
 } from "../assets";
 
@@ -65,43 +70,40 @@ export const navLinks = [
     title: "Contact",
   },
 ];
-
 const services = [
-  
-    {
-      title: "FRONT END DEVELOPER",
-      icon: web,
-    },
-    {
-      title: "BACK END DEVELOPER",
-      icon: mobile,
-    },
-    {
-      title: "DEVOPS ENTHOUSIAST",
-      icon: devops,
-    },
-    {
-      title: "PROFESSIONAL PIANIST",
-      icon: piano,
-    },
-    {
-      title: "MACHINE LEARNING PRACTITIONER",
-      icon: machineLearning,
-    },
-    {
-      title: "COMPETITIVE PROGRAMMER",
-      icon: backend,
-    },
-    {
-      title: "GLOBAL VONLENTEER",
-      icon: walking_logo,
-    },
-    ];
-    
+  {
+    title: "Full-Stack Engineering",
+    icon: web,
+  },
+  {
+    title: "Deep Learning",
+    icon: brain,
+  },
+  {
+    title: "Image Processing",
+    icon: image,
+  },
+  {
+    title: "LLMs & NLP",
+    icon: chatgpt,
+  },
+
+  {
+    title: "DevOps & MLOps",
+    icon: devops,
+  },
+  {
+    title: "Big Data",
+    icon: data,
+  },
+  {
+    title: "Global Volunteer",
+    icon: earth,
+  },
+
+];
 
 const technologies = [
-
-
   {
     name: "React JS",
     icon: reactjs,
@@ -118,8 +120,7 @@ const technologies = [
   {
     name: "NET_Core",
     icon: NET_Core,
-  },  
- 
+  },
   {
     name: "nest",
     icon: nest,
@@ -137,25 +138,11 @@ const technologies = [
     icon: postgres,
   },
 
- 
-  // {
-  //   name: "JavaScript",
-  //   icon: javascript,
-  // },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
-  // {
-  //   name: "C_sharp",
-  //   icon: C_sharp,
-  // },
- 
   {
     name: "Tailwind CSS",
     icon: C_plus,
-  }, 
-   {
+  },
+  {
     name: "figma",
     icon: figma,
   },
@@ -163,55 +150,78 @@ const technologies = [
     name: "git",
     icon: git,
   },
- 
+
   {
     name: "Python",
-    icon: Python
+    icon: Python,
   },
-
-
 ];
 
 const experiences = [
   {
+    title: "Web Engineer",
+    company_name: "Reality",
+    company_place: "US, Seattle",
+    icon: reality,
+    iconBg: "#E6DEDD",
+    date: "Jan 2025 - Current",
+    points: [
+      "Focused on building performant and scalable web applications aligned with modern UI/UX standards.",
+      "  Implemented a library of 20+ reusable components, reducing development time on new pages by 40%.",
+      " Participated in architectural decisions and enhanced CI/CD pipelines to streamline frontend deployment.",
+    ],
+    technologies: [
+      "React TS",
+      "Framer-motion",
+      "TailwindCSS",
+      "SpringBoot",
+      "GraphQL",
+    ],
+  },
+  {
     title: "Backend Developer",
-    company_name: "SingleClic, EGYPT",
+    company_name: "SingleClic",
+    company_place: "EGYPT, Cairo",
     icon: singleClic,
     iconBg: "#E6DEDD",
-    date: "Jun 2024 - Sept 2024",
+    date: "June 2024 - Sept 2024",
     points: [
       "working on a concrete e-commerce web application 'COVETI ' using Microsoft .NET MVC, ensuring high performance and optimizing some of its functionalities.",
       "Deploying a .NET MAUI desktop application in a professional environment.",
       "Actively participating in daily meetings and code reviews, providing constructive feedback to improve team performance.",
       "Collaborating with cross-functional teams, including testers and developers, to deliver high-quality solutions.",
-          ],
+    ],
+    technologies: [".NET MVC", ".NET MAUI", "PostgreSQL"],
   },
+
   {
     title: "Fullstack Developer",
-    company_name: "MsSolutions, TUNISIA",
+    company_name: "MsSolutions",
+    company_place: "TUNISIA, Tunis",
     icon: MsSolutions,
     iconBg: "#E6DEDD",
-    date: "Jun 2023 - Sept 2023",
+    date: "June 2023 - Sept 2023",
     points: [
       "writing clean, efficient, and maintainable code, while ensuring architectural compatibility across projects.",
       "Developing a user management web application incorporating role-based frontent and JWT authentication and authorization",
       "utilizing ASP.NET Core 6 Web API and Angular 16 for the frontend.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
+    technologies: ["ASP.NET Core", "Angular TS", "TailwindCSS"],
   },
   {
-    title: "Web Teacher",
-    company_name: "Aiesec Istanbul, TURKEY",
+    title: "English Teacher",
+    company_name: "Aiesec Istanbul",
+    company_place: "TURKEY, Istanbul",
     icon: walking_aiesec,
     iconBg: "#E6DEDD",
-    date: "JUNE 2022 - JULY 2023",
+    date: "June 2022 - Aug 2022",
     points: [
-      "Teaching the basics of HTML and CSS  to young student .",
+      "Teaching english basics  to young student .",
       "Collaborating with colleagues and learning the importance of team work .",
       "Participating in professional meetings to ensure the best teaching methedology.",
     ],
   },
- 
 ];
 
 const testimonials = [
@@ -243,51 +253,68 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Arc-En-Jeu",
+    description:
+      "Designed a vibrant, multilingual mobile app for autistic children with sensory-friendly games that encourage learning through play. Paired it with a smart web platform for educators to create personalized games — integrating emotion recognition.",
+    tags: [
+      { name: "react TS", color: "blue-text-gradient" },
+      { name: "flutter", color: "green-text-gradient" },
+      { name: "supaBase", color: "yellow-text-gradient" },
+      { name: "google ML Kit", color: "pink-text-gradient" },
+    ],
+    image: arcEnJeu,
+    source_code_link: "https://github.com/farahBassoumi/ArcEnJeu",
+  },
+  {
+    name: "Flight Delay",
+    description:
+      "Developed a machine learning pipeline to forecast flight delays and durations using a blend of historical and real-time scraped data. Automated the data collection and preprocessing workflows, achieving over 85% prediction accuracy.",
+    tags: [
+      { name: "Pandas", color: "yellow-text-gradient" },
+      { name: "Python", color: "blue-text-gradient" },
+      { name: " Web Scraping", color: "pink-text-gradient" },
+      { name: "Scikit-learn", color: "green-text-gradient" },
+    ],
+    image: flightDelay,
+    source_code_link:
+      "https://github.com/YounesMakhlouf/flight-delayhttps://github.com/farahBassoumi/ArcEnJeu",
+  },
+  {
+    name: "DO-IT!",
+    description:
+      "A to-do app built for my forgetful (but fabulous) self. Packed it with cozy animations, pastel vibes, and motivational UI — because getting things done should look good and feel fun.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "framer-motion", color: "green-text-gradient" },
+      { name: "vite", color: "yellow-text-gradient" },
+      { name: "tailwindCSS", color: "pink-text-gradient" },
+    ],
+    image: doIt,
+    source_code_link: "https://github.com/farahBassoumi/theySaid",
+    live_link: "https://farahbassoumi.github.io/theySaid/",
+  },
+  {
     name: "STUDYFLUX",
     description:
-
-      "AI powered studying platform integrated with the Gemini API. It provides students with multiple functionalities such as generating flashcards, quizzes, resumes and talk with a scholar ChatBot .",
+      "An AI-powered study buddy that’s always ready to help. It whips up flashcards, quizzes, summaries, and even chats like a scholar thanks to Gemini API. Because studying should be smart — not soul-crushing.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-    
-      {
-        name: ".net core",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "gemini API",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "mongodb", color: "green-text-gradient" },
+      { name: ".net core", color: "yellow-text-gradient" },
+      { name: "gemini API", color: "pink-text-gradient" },
     ],
     image: studyFlux,
     source_code_link: "https://github.com/Fabeure/Studyfied",
+    live_link: "https://saber-azouzi.github.io/Studyfied/",
   },
   {
     name: "BIRDY",
     description:
-    // A a psychological blog web application with role-based UI, authentication, and authorization using Angular
-      "A psychological blog web application with role-based UI, authentication, and JWT authorization. It enables users to upload, like, comment and save blogs and to connect and follow other users",
+      "A mental wellness blogging platform where users can write, like, comment, and connect. With full-on role-based access, JWT authentication, and a chill Angular + .NET vibe — it’s basically Medium meets good vibes.",
     tags: [
-      {
-        name: ".net core MVC",
-        color: "blue-text-gradient",
-      },
-      {
-        name: ".net Identity",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "angular 16 ",
-        color: "green-text-gradient",
-      },
-     
+      { name: ".net core MVC", color: "blue-text-gradient" },
+      { name: ".net Identity", color: "pink-text-gradient" },
+      { name: "angular 16", color: "green-text-gradient" },
     ],
     image: birdy,
     source_code_link: "https://github.com/farahBassoumi/birdy-front",
@@ -295,25 +322,12 @@ const projects = [
   {
     name: "PROJECT TRACKER",
     description:
-    // Powered by NestJS 5, React 5, and PostgreSQL
-      "a Project Tracker web application built based on event-driven architecture using SSE and WebSockets for real-time tracking.  It allows users manage projects and assign tasks to other users in a flexible effective way.",
+      "A real-time project manager with superpowers. Powered by event-driven architecture using SSE & WebSockets, this app makes assigning tasks, tracking progress, and staying in sync feel smooth and almost magical.",
     tags: [
-      {
-        name: "nestJs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react",
-        color: "green-text-gradient",
-      },
-      {
-        name: "sse",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "webSockets",
-        color: "purple-text-gradient",
-      },
+      { name: "nestJs", color: "blue-text-gradient" },
+      { name: "react", color: "green-text-gradient" },
+      { name: "sse", color: "pink-text-gradient" },
+      { name: "webSockets", color: "purple-text-gradient" },
     ],
     image: ProjectTracker,
     source_code_link: "https://github.com/farahBassoumi/ProjectTracker-NestJS",

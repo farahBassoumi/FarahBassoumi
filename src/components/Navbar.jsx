@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../style";
 import { navLinks } from "../constants/constants";
-import { menu, close, bird } from "../assets";
+import { menu, close, pbonzai } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -20,8 +20,8 @@ const Navbar = () => {
     position: 'relative',
     transition: 'color 0.3s ease, text-shadow 0.3s ease', // Smooth color and shadow transition
     textShadow: active 
-      ? '0 20px 10px rgba(138, 43, 226, 0.4)'             // Violet shadow on click, larger spread
-      : '0 4px 6px rgba(138, 43, 226, 0.3)',             // Default subtle shadow
+      ? '0 20px 10px rgba(223, 43, 226, 0.4)'             // Violet shadow on click, larger spread
+      : '0 4px 6px rgba(223, 43, 226, 0.3)',             // Default subtle shadow
   };
   return (
     <nav
@@ -38,7 +38,7 @@ const Navbar = () => {
           }}
         >
           <img
-            src={bird}
+            src={pbonzai}
             alt="logo"
             className="w-9 h-9 object-contain -ml-14"
           />
