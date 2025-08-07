@@ -53,7 +53,8 @@ import {
   image,
   chatgpt,
   data,
-
+  crypto,
+  efrei,
 } from "../assets";
 
 export const navLinks = [
@@ -72,20 +73,28 @@ export const navLinks = [
 ];
 const services = [
   {
-    title: "Full-Stack Engineering",
-    icon: web,
+    title: "Decentralized Finance Researcher",
+    icon: crypto,
   },
   {
-    title: "Deep Learning",
+    title: "Machine Learning & AI",
     icon: brain,
+  },
+  {
+    title: "LLMs & NLP",
+    icon: chatgpt,
   },
   {
     title: "Image Processing",
     icon: image,
   },
   {
-    title: "LLMs & NLP",
-    icon: chatgpt,
+    title: "Big Data",
+    icon: data,
+  },
+  {
+    title: "Full-Stack Engineering",
+    icon: web,
   },
 
   {
@@ -93,14 +102,9 @@ const services = [
     icon: devops,
   },
   {
-    title: "Big Data",
-    icon: data,
-  },
-  {
     title: "Global Volunteer",
     icon: earth,
   },
-
 ];
 
 const technologies = [
@@ -159,12 +163,33 @@ const technologies = [
 
 const experiences = [
   {
+    title: "DeFi Researcher",
+    company_name: "Efrei University",
+    company_place: "Paris, France",
+    icon: efrei,
+    iconBg: "#E6DEDD",
+    date: "June 2025 - Current",
+    points: [
+      "Conducting applied research on DeFi transaction data to detect sandwich attacks and front-running behaviors across Ethereum blocks.",
+      "Designed and implemented a multi-phase pipeline combining data engineering and machine learning to identify Sybil addresses involved in malicious trading patterns.",
+      "Engineered scalable preprocessing and feature extraction workflows for over 10 million transactions, optimizing memory usage and detection accuracy.",
+    ],
+    technologies: [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "scikit-learn",
+      "XGBoost",
+      "SQL",
+    ],
+  },
+  {
     title: "Web Engineer",
     company_name: "Reality",
-    company_place: "US, Seattle",
+    company_place: "Seattle, USA",
     icon: reality,
     iconBg: "#E6DEDD",
-    date: "Jan 2025 - Current",
+    date: "Jan 2025 - July 2025",
     points: [
       "Focused on building performant and scalable web applications aligned with modern UI/UX standards.",
       "  Implemented a library of 20+ reusable components, reducing development time on new pages by 40%.",
@@ -181,7 +206,7 @@ const experiences = [
   {
     title: "Backend Developer",
     company_name: "SingleClic",
-    company_place: "EGYPT, Cairo",
+    company_place: "Cairo, Egypt",
     icon: singleClic,
     iconBg: "#E6DEDD",
     date: "June 2024 - Sept 2024",
@@ -193,11 +218,10 @@ const experiences = [
     ],
     technologies: [".NET MVC", ".NET MAUI", "PostgreSQL"],
   },
-
   {
     title: "Fullstack Developer",
     company_name: "MsSolutions",
-    company_place: "TUNISIA, Tunis",
+    company_place: "Tunis, Tunisia",
     icon: MsSolutions,
     iconBg: "#E6DEDD",
     date: "June 2023 - Sept 2023",
@@ -212,7 +236,7 @@ const experiences = [
   {
     title: "English Teacher",
     company_name: "Aiesec Istanbul",
-    company_place: "TURKEY, Istanbul",
+    company_place: "Istanbul, Turkey",
     icon: walking_aiesec,
     iconBg: "#E6DEDD",
     date: "June 2022 - Aug 2022",

@@ -70,13 +70,14 @@ const Experience = () => {
     <div>
       <motion.div variants={textVariant()}>
         <div className="flex flex-row flex-wrap">
-                  <h2 className={styles.heroHeadText}>My Engineer Era </h2>
-
-          <Lottie animationData={sparkles} className=" mt-[-20px] lg:ml-[-30px] ml-[-10px] lg:w-[150px] lg:h-[150px] w-[80px] h-[80px]" loop={true} />
+          <h2 className={styles.heroHeadText}>My Engineer Era </h2>
         </div>
 
-        <p className={styles.heroSubText}>
-          Just a curious mind who fell in love with code — from late night bugs to breakthrough builds, here’s my professional Journey in tech so far.
+        <p className="mt-4  text-[18px] max-w-[80%] leading-[30px]">
+          A curious and analytical mind drawn to the challenge of building,
+          breaking, and understanding systems.
+          <br />
+          This is the path my journey in tech has followed so far :)
         </p>
       </motion.div>
 

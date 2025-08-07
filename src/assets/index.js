@@ -19,6 +19,7 @@ import MsSolutions from "./company/MsSolutions.png";
 import GTa from "./company/GTa.png";
 import singleClic from "./company/singleclic.png";
 import reality from "./company/reality.svg";
+import efrei from "./company/efrei.png";
 
 //technologies
 import figma from "./tech/figma.png";
@@ -62,6 +63,8 @@ import chatgpt from "./lotties/chatgpt.json";
 import brain from "./lotties/brain.json";
 import image from "./lotties/image.json";
 import web from "./lotties/web.json";
+import blockchain from "./lotties/blockchain.json";
+import crypto from "./lotties/crypto.json";
 
 import piano from "./piano.png";
 
@@ -106,6 +109,7 @@ export {
   walking_aiesec,
   walking_logo,
   reality,
+  efrei,
 
   //projects
   studyFlux,
@@ -122,6 +126,8 @@ export {
   data,
   chatgpt,
   brain,
+  blockchain,
   image,
   pbonzai,
+  crypto
 };
