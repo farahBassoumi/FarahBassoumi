@@ -283,13 +283,13 @@ const projects = [
     description:
       "Developed and optimized CNN-based models for brain MRI tumor classification, pairing them with a full pipeline that integrates preprocessing, segmentation, and modeling to ensure precise and reliable detection.",
     tags: [
-      { name: "PyTorch", color: "blue-text-gradient" },
+      { name: "PyTorch", color: "pink-text-gradient" },
       { name: "OpenCV", color: "green-text-gradient" },
       { name: "scikit-learn", color: "yellow-text-gradient" },
-      { name: "Anaconda", color: "pink-text-gradient" },
+      { name: "Anaconda", color: "blue-text-gradient" },
     ],
     image: brains_mri,
-    source_code_link: "https://github.com/farahBassoumi/ArcEnJeu",
+    source_code_link: "https://github.com/farahBassoumi/brain-tumors-detection",
   },
   {
     name: "Arc-En-Jeu",
