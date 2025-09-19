@@ -164,24 +164,25 @@ const technologies = [
 
 const experiences = [
   {
-    title: "DeFi Researcher",
+    title: "Cyber attacks Researcher",
     company_name: "Efrei University",
     company_place: "Paris, France",
     icon: efrei,
     iconBg: "#E6DEDD",
     date: "June 2025 - Current",
+
     points: [
-      "Conducting applied research on DeFi transaction data to detect sandwich attacks and front-running behaviors across Ethereum blocks.",
-      "Designed and implemented a multi-phase pipeline combining data engineering and machine learning to identify Sybil addresses involved in malicious trading patterns.",
-      "Engineered scalable preprocessing and feature extraction workflows for over 10 million transactions, optimizing memory usage and detection accuracy.",
+      "Conducted research on DeFi transaction data to detect sandwich attacks and front-running behaviors.",
+      "Designed a multi-phase pipeline using data engineering and machine learning to identify Sybil addresses.",
+      "Built scalable preprocessing and feature extraction workflows for 10M+ transactions, optimizing accuracy and memory usage.",
     ],
     technologies: [
       "Python",
       "Pandas",
       "NumPy",
       "scikit-learn",
-      "XGBoost",
-      "SQL",
+      "ZeroMEV",
+      "EtherScan",
     ],
   },
   {
@@ -277,7 +278,7 @@ const testimonials = [
 ];
 
 const projects = [
-    {
+  {
     name: "Brain Tumors Detection",
     description:
       "Developed and optimized CNN-based models for brain MRI tumor classification, pairing them with a full pipeline that integrates preprocessing, segmentation, and modeling to ensure precise and reliable detection.",
@@ -286,7 +287,6 @@ const projects = [
       { name: "OpenCV", color: "green-text-gradient" },
       { name: "scikit-learn", color: "yellow-text-gradient" },
       { name: "Anaconda", color: "pink-text-gradient" },
-
     ],
     image: brains_mri,
     source_code_link: "https://github.com/farahBassoumi/ArcEnJeu",
