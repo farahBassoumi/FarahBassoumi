@@ -51,6 +51,7 @@ import studyFlux from "./projects/studyFlux.png";
 import ProjectTracker from "./projects/projectTracker.png";
 import birdy from "./projects/birdy.png";
 import arcEnJeu from "./projects/ArcEnJeu.png";
+import brains_mri from "./projects/brains_mri.jpeg";
 import doIt from "./projects/DoIt.png";
 import flightDelay from "./projects/flightDelay.png";
 
@@ -118,6 +119,7 @@ export {
   doIt,
   arcEnJeu,
   flightDelay,
+  brains_mri,
 
   //lotties
   devops,

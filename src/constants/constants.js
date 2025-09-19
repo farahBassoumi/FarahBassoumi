@@ -46,6 +46,7 @@ import {
   ProjectTracker,
   reality,
   arcEnJeu,
+  brains_mri,
   doIt,
   flightDelay,
   earth,
@@ -276,6 +277,20 @@ const testimonials = [
 ];
 
 const projects = [
+    {
+    name: "Brain Tumors Detection",
+    description:
+      "Developed and optimized CNN-based models for brain MRI tumor classification, pairing them with a full pipeline that integrates preprocessing, segmentation, and modeling to ensure precise and reliable detection.",
+    tags: [
+      { name: "PyTorch", color: "blue-text-gradient" },
+      { name: "OpenCV", color: "green-text-gradient" },
+      { name: "scikit-learn", color: "yellow-text-gradient" },
+      { name: "Anaconda", color: "pink-text-gradient" },
+
+    ],
+    image: brains_mri,
+    source_code_link: "https://github.com/farahBassoumi/ArcEnJeu",
+  },
   {
     name: "Arc-En-Jeu",
     description:
