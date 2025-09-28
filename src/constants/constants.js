@@ -56,6 +56,8 @@ import {
   data,
   crypto,
   efrei,
+  minigpt,
+  bhgpt,
 } from "../assets";
 
 export const navLinks = [
@@ -250,34 +252,37 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
+  {
+    name: "BH Insurance Chatbot",
+    description:
+      "Built an intelligent chatbot for BH Assurance with a microservices architecture, reducing client service workload by ~40%. Integrated an NLP-driven RAG pipeline to process 10k+ insurance documents with sub-second responses and 95% retrieval accuracy.",
+
+    tags: [
+      { name: "FastAPI", color: "blue-text-gradient" },
+      { name: "Docker", color: "green-text-gradient" },
+      { name: "OpenAI", color: "orange-text-gradient" },
+      { name: "NLP", color: "yellow-text-gradient" },
+      { name: "RAG", color: "pink-text-gradient" },
+    ],
+    image: bhgpt,
+    source_code_link: "https://github.com/farahBassoumi/insurance_chatbot",
+  },
+  {
+    name: "MiniGPT",
+    description:
+      "Built and trained a GPT-style language model from scratch in Python and PyTorch, creating an end-to-end pipeline for preprocessing, sequence encoding, and training, with optimized performance through hyperparameter tuning.",
+    tags: [
+      { name: "LLMs", color: "blue-text-gradient" },
+      { name: "NLP", color: "green-text-gradient" },
+      { name: "Python", color: "yellow-text-gradient" },
+      { name: "PyTorch", color: "pink-text-gradient" },
+      { name: "NumPy", color: "orange-text-gradient" },
+    ],
+    image: minigpt,
+    source_code_link: "",
+  },
+
   {
     name: "Brain Tumors Detection",
     description:
@@ -370,6 +375,33 @@ const projects = [
     ],
     image: ProjectTracker,
     source_code_link: "https://github.com/farahBassoumi/ProjectTracker-NestJS",
+  },
+];
+
+const testimonials = [
+  {
+    testimonial:
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    name: "Sara Lee",
+    designation: "CFO",
+    company: "Acme Co",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
+  },
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+  {
+    testimonial:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lisa Wang",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 

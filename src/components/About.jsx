@@ -45,38 +45,29 @@ const About = () => {
         className="mt-4   max-w-[90%] leading-[30px]"
         variants={fadeIn("right", "spring", 0.2, 2)}
       >
-        I'm a final-year Software Engineering student at INSAT, currently
-        seeking an end-of-study internship where I can contribute to impactful
-        projects and explore research-driven, technically challenging topics.
+        I’m a final-year Software Engineering student at INSAT, looking for an
+        end of study internship where I can put my skills to good use and keep
+        learning.
       </motion.p>
-
       <motion.p
         className="mt-4  max-w-[90%] leading-[30px]"
         variants={fadeIn("right", "spring", 0.5, 4)}
       >
-        Recently, I've been working on research related to blockchain security,
-        using data engineering and machine learning to analyze complex behaviors
-        in decentralized finance.
-      </motion.p>
-
-      <motion.p
-        className="mt-4  max-w-[90%] leading-[30px]"
-        variants={fadeIn("right", "spring", 0.8, 6)}
-      >
-        Beyond that, I've explored large language models, AI agents, medical
-        image segmentation, emotion-aware systems, DevOps automation, and
-        interdisciplinary projects that blend software with fields like
-        bioengineering.
+        I already have some professional experience, so I know what it means to
+        work on real projects with a team and face practical challenges. Over
+        the years, I’ve explored different areas like blockchain security, data
+        engineering, machine learning, large language models, medical imaging,
+        bioinformatics, and image processing.
       </motion.p>
       <motion.p
         className="mt-4  max-w-[90%] leading-[30px]"
         variants={fadeIn("right", "spring", 0.8, 6)}
       >
-        I also have a strong background in full-stack development, which enables
-        me to prototype, iterate, and deliver functional solutions
-        efficiently—skills I often leverage to bring research concepts to life.
+        What motivates me most is tackling problems where data, AI, and
+        optimization can make a real difference, whether that’s through
+        research-driven work or more applied, hands on projects.
       </motion.p>
-
+     
       <div className="mt-20 flex flex-wrap gap-10 justify-center mx-auto">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

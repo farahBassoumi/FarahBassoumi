@@ -46,7 +46,7 @@ import C_sharp from "./tech/C_sharp.png";
 import java from "./tech/java.png";
 
 import github from "./github.png";
-
+//projects
 import studyFlux from "./projects/studyFlux.png";
 import ProjectTracker from "./projects/projectTracker.png";
 import birdy from "./projects/birdy.png";
@@ -54,6 +54,8 @@ import arcEnJeu from "./projects/ArcEnJeu.png";
 import brains_mri from "./projects/brains_mri.jpeg";
 import doIt from "./projects/DoIt.png";
 import flightDelay from "./projects/flightDelay.png";
+import minigpt from "./projects/minigpt.webp";
+import bhgpt from "./projects/bhgpt.jpeg";
 
 //lotties
 import devops from "./lotties/devops.json";
@@ -120,6 +122,8 @@ export {
   arcEnJeu,
   flightDelay,
   brains_mri,
+  minigpt,
+  bhgpt,
 
   //lotties
   devops,
