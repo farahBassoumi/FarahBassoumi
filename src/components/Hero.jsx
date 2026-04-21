@@ -44,7 +44,7 @@ const Hero = () => {
               animate="animate"
               className=" text-[18px] "
             >
-              Just an engineer, a bonsai, and a bunch of projects — come hang{" "}
+              Just an AI engineer, a bonsai and a bunch of projects — come hang{" "}
             </motion.div>
 
             <motion.div
@@ -54,7 +54,7 @@ const Hero = () => {
               className=" pt-[10px] text-[14px]"
             >
               Why the bonsai? Because building software (and life) is all about
-              patience, curiosity, and a little bit of daily growth.
+              patience, curiosity, and a little bit of daily growth :)
             </motion.div>
           </div>
         </div>

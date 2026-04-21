@@ -42,32 +42,34 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        className="mt-4   max-w-[90%] leading-[30px]"
+        className="mt-4 max-w-[90%] leading-[30px]"
         variants={fadeIn("right", "spring", 0.2, 2)}
       >
-        I’m a final-year Software Engineering student at INSAT, looking for an
-        end of study internship where I can put my skills to good use and keep
-        learning.
+        Currently, I’m an AI research intern at LaBRI (Laboratoire Bordelais de
+        Recherche en Informatique), where I work on building modern tools around
+        code review in the era of AI agents. This is my end-of-studies
+        internship at INSAT, and I will be graduating in September 2026.
       </motion.p>
+
       <motion.p
-        className="mt-4  max-w-[90%] leading-[30px]"
+        className="mt-4 max-w-[90%] leading-[30px]"
         variants={fadeIn("right", "spring", 0.5, 4)}
       >
-        I already have some professional experience, so I know what it means to
-        work on real projects with a team and face practical challenges. Over
-        the years, I’ve explored different areas like blockchain security, data
-        engineering, machine learning, large language models, medical imaging,
-        bioinformatics, and image processing.
+        I’ve already gained professional experience working on real-world
+        projects, collaborating within teams, and dealing with practical
+        challenges beyond just theory.
       </motion.p>
+
       <motion.p
-        className="mt-4  max-w-[90%] leading-[30px]"
+        className="mt-4 max-w-[90%] leading-[30px]"
         variants={fadeIn("right", "spring", 0.8, 6)}
       >
-        What motivates me most is tackling problems where data, AI, and
-        optimization can make a real difference, whether that’s through
-        research-driven work or more applied, hands on projects.
+        Over time, I’ve explored a range of areas in AI, including Agentic AI,
+        RAG, NLP, image processing, machine learning, and medical imaging. I’ve
+        also worked on topics beyond AI such as blockchain security, data
+        engineering, data science, bioinformatics, and web development.
       </motion.p>
-     
+
       <div className="mt-20 flex flex-wrap gap-10 justify-center mx-auto">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

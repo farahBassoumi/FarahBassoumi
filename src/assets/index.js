@@ -20,30 +20,32 @@ import GTa from "./company/GTa.png";
 import singleClic from "./company/singleclic.png";
 import reality from "./company/reality.svg";
 import efrei from "./company/efrei.png";
+import labri from "./company/labri.png";
 
 //technologies
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/react.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import js from "./tech/js.png";
 import Microsoft_Azure from "./tech/Microsoft_Azure.png";
 import mongodb from "./tech/mongodb.png";
 import nest from "./tech/nest.png";
-import NET_Core from "./tech/NET_Core.png";
 import postgres from "./tech/postgres.png";
-import Python from "./tech/Python.png";
+import python from "./tech/Python.png";
 import react from "./tech/react.png";
-import ts from "./tech/ts.png";
 import threejs from "./tech/threeJs.png";
-import angular from "./tech/angular.png";
 import C from "./tech/C.png";
 import C_plus from "./tech/C_plus.png";
 import C_sharp from "./tech/C_sharp.png";
 import java from "./tech/java.png";
+import tensorflow from "./tech/tensorflow.png";
+
+import docker from "./tech/docker.png";
+import ai from "./tech/ai.png";
+import pandas from "./tech/pandas.png";
+import jupyter from "./tech/jupyter.png";
+import numpy from "./tech/numpy.png";
+import hugging_face from "./tech/hugging_face.png";
 
 import github from "./github.png";
 //projects
@@ -68,6 +70,7 @@ import image from "./lotties/image.json";
 import web from "./lotties/web.json";
 import blockchain from "./lotties/blockchain.json";
 import crypto from "./lotties/crypto.json";
+import code_review from "./lotties/code_review.json";
 
 import piano from "./piano.png";
 
@@ -75,17 +78,24 @@ export {
   C,
   C_plus,
   C_sharp,
-  js,
   Microsoft_Azure,
   nest,
-  NET_Core,
   react,
-  Python,
+  python,
   postgres,
-  ts,
-  angular,
   java,
   machineLearning,
+  tensorflow,
+  hugging_face,
+  pandas,
+  jupyter,
+  numpy,
+  docker,
+  ai,
+
+
+
+
   //devops,
   logo,
   backend,
@@ -95,14 +105,11 @@ export {
   github,
   menu,
   close,
-  figma,
   git,
   javascript,
   mongodb,
   nodejs,
   reactjs,
-  tailwind,
-  typescript,
   threejs,
   bird,
   piano,
@@ -113,6 +120,7 @@ export {
   walking_logo,
   reality,
   efrei,
+  labri,
 
   //projects
   studyFlux,
@@ -135,5 +143,6 @@ export {
   blockchain,
   image,
   pbonzai,
-  crypto
+  crypto,
+  code_review
 };

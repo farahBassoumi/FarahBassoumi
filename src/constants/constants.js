@@ -3,23 +3,16 @@ import {
   C,
   C_plus,
   C_sharp,
-  js,
   Microsoft_Azure,
   nest,
-  NET_Core,
   react,
-  Python,
+  python,
   postgres,
-  ts,
-  angular,
-  figma,
   git,
   javascript,
   mongodb,
   nodejs,
   reactjs,
-  tailwind,
-  typescript,
   threejs,
   java,
   logo,
@@ -31,6 +24,13 @@ import {
   close,
   bird,
   piano,
+  docker,
+  ai,
+  hugging_face,
+  pandas,
+  jupyter,
+  numpy,
+  tensorflow,
 
   //companies
   singleClic,
@@ -58,6 +58,8 @@ import {
   efrei,
   minigpt,
   bhgpt,
+  code_review,
+  labri,
 } from "../assets";
 
 export const navLinks = [
@@ -76,11 +78,12 @@ export const navLinks = [
 ];
 const services = [
   {
-    title: "Decentralized Finance Researcher",
-    icon: crypto,
+    title: "RAG & AI Agents Researcher",
+    icon: code_review,
   },
+
   {
-    title: "Machine Learning & AI",
+    title: "Machine Learning & Deep Learning",
     icon: brain,
   },
   {
@@ -112,25 +115,36 @@ const services = [
 
 const technologies = [
   {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "pandas",
+    icon: pandas,
+  },
+  {
+    name: "tensorflow",
+    icon: tensorflow,
+  },
+  {
+    name: "ai",
+    icon: ai,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
-
   {
-    name: "Angular TS",
-    icon: angular,
+    name: "docker",
+    icon: docker,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "jupyter",
+    icon: jupyter,
   },
   {
-    name: "NET_Core",
-    icon: NET_Core,
-  },
-  {
-    name: "nest",
-    icon: nest,
+    name: "hugging_face",
+    icon: hugging_face,
   },
   {
     name: "Microsoft_Azure",
@@ -144,35 +158,40 @@ const technologies = [
     name: " SQL SERVER",
     icon: postgres,
   },
-
   {
-    name: "Tailwind CSS",
-    icon: C_plus,
-  },
-  {
-    name: "figma",
-    icon: figma,
+    name: "numpy",
+    icon: numpy,
   },
   {
     name: "git",
     icon: git,
   },
-
-  {
-    name: "Python",
-    icon: Python,
-  },
 ];
 
 const experiences = [
+  {
+    title: "AI Researcher",
+    company_name: "LaBRI  ",
+    company_place: "Bordeaux, France",
+    icon: labri,
+    iconBg: "#E6DEDD",
+    date: "Mars 2026 - Current",
+
+    points: [
+      "Designing a hybrid architecture for modern code review, combining AI agents and RAG-based retrieval systems.",
+      "Exploring trade-offs between performance, scalability, and cost efficiency through iterative experimentation.",
+      "Building prototypes and running experiments to evaluate different approaches to AI-assisted code review.",
+      "Analyzing how increasing code volume impacts review processes, and proposing more adaptive, AI-driven solutions.",
+    ],
+    technologies: ["RAG", "Agentic AI", "Python", "NLP", "LLMs"],
+  },
   {
     title: "Cyber attacks Researcher",
     company_name: "Efrei University",
     company_place: "Paris, France",
     icon: efrei,
     iconBg: "#E6DEDD",
-    date: "June 2025 - Current",
-
+    date: "June 2025 - Sept 2025",
     points: [
       "Conducted research on DeFi transaction data to detect sandwich attacks and front-running behaviors.",
       "Designed a multi-phase pipeline using data engineering and machine learning to identify Sybil addresses.",
