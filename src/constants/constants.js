@@ -170,8 +170,8 @@ const technologies = [
 
 const experiences = [
   {
-    title: "AI Researcher",
-    company_name: "LaBRI  ",
+    title: "AI Researcher - Intern",
+    company_name: "LaBRI - University of Bordeaux",
     company_place: "Bordeaux, France",
     icon: labri,
     iconBg: "#E6DEDD",
@@ -186,7 +186,7 @@ const experiences = [
     technologies: ["RAG", "Agentic AI", "Python", "NLP", "LLMs"],
   },
   {
-    title: "Cyber attacks Researcher",
+    title: "Data Researcher - Intern",
     company_name: "Efrei University",
     company_place: "Paris, France",
     icon: efrei,

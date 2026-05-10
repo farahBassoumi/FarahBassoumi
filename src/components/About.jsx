@@ -45,31 +45,33 @@ const About = () => {
         className="mt-4 max-w-[90%] leading-[30px]"
         variants={fadeIn("right", "spring", 0.2, 2)}
       >
-        Currently, I’m an AI research intern at LaBRI (Laboratoire Bordelais de
-        Recherche en Informatique), where I work on building modern tools around
-        code review in the era of AI agents. This is my end-of-studies
-        internship at INSAT, and I will be graduating in September 2026.
+        I am currently an AI Research Intern at LaBRI — Bordeaux Computer
+        Science Research Laboratory, University of Bordeaux, where I work on
+        next-generation code review systems designed for the era of AI agents
+        and large language models. This internship is part of my final year in
+        Software Engineering at INSAT, from which I will graduate in September
+        2026.
       </motion.p>
 
       <motion.p
         className="mt-4 max-w-[90%] leading-[30px]"
         variants={fadeIn("right", "spring", 0.5, 4)}
       >
-        I’ve already gained professional experience working on real-world
-        projects, collaborating within teams, and dealing with practical
-        challenges beyond just theory.
+        Over the past years, I have gained hands-on experience through research
+        and industry-oriented projects, collaborating within technical teams and
+        building systems that address real-world challenges beyond academic
+        settings.
       </motion.p>
 
       <motion.p
         className="mt-4 max-w-[90%] leading-[30px]"
         variants={fadeIn("right", "spring", 0.8, 6)}
       >
-        Over time, I’ve explored a range of areas in AI, including Agentic AI,
-        RAG, NLP, image processing, machine learning, and medical imaging. I’ve
-        also worked on topics beyond AI such as blockchain security, data
-        engineering, data science, bioinformatics, and web development.
+        My interests span several areas of AI, including Machine Learning, Deep
+        Learning, Computer Vision, Image Processing, Agentic AI, RAG systems,
+        NLP, and medical imaging. Beyond AI, I have also worked on Big Data
+        systems, MLOps, distributed systems, databases, and bioinformatics.
       </motion.p>
-
       <div className="mt-20 flex flex-wrap gap-10 justify-center mx-auto">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

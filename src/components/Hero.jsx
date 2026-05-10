@@ -44,7 +44,7 @@ const Hero = () => {
               animate="animate"
               className=" text-[18px] "
             >
-              Just an AI engineer, a bonsai and a bunch of projects — come hang{" "}
+              Just an AI engineer, a bonsai, and a collection of ideas brought to life — come hang.{" "}
             </motion.div>
 
             <motion.div

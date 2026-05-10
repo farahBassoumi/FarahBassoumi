@@ -67,30 +67,33 @@ const ProjectCard = ({
       </Tilt>
     </motion.div>
   );
-};const Works = () => {
+};
+const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h2 className={styles.heroHeadText}> Projects That I’ve Brought to Life</h2>
+        <h2 className={styles.heroHeadText}>
+          {" "}
+          Projects That I’ve Brought to Life
+        </h2>
       </motion.div>
       <div className="flex flex-col full-w">
         <motion.p
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           variants={fadeIn("right", "tween", 0.5, 1)}
         >
-          From sketchy ideas on paper to full-on interactive experiences — here’s a glimpse into the digital stuff I’ve built.
+          Here are some of the projects I’ve worked on over time, from AI and
+          data-driven applications to more experimental ideas I wanted to
+          explore and build.
         </motion.p>
-        <motion.p
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
-          variants={fadeIn("right", "tween", 1, 1)}
-        >
-          Whether solo hacking at midnight or teaming up for bigger challenges, each project taught me something new.
-        </motion.p>
+
         <motion.p
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           variants={fadeIn("right", "tween", 1.5, 1)}
         >
-          Every card below comes with a quick peek + a code link if you’re curious to dive deeper 
+          You’ll find a short overview for each project below, along with links
+          to the code and implementation details if you'd like to explore them
+          further :)
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7 ">
@@ -103,5 +106,3 @@ const ProjectCard = ({
 };
 
 export default sectionWrapper(Works, "");
-
-
