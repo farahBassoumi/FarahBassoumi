@@ -178,12 +178,12 @@ const experiences = [
     date: "Mars 2026 - Current",
 
     points: [
-      "Designing a hybrid architecture for modern code review, combining AI agents and RAG-based retrieval systems.",
+      "Designing a hybrid architecture for modern code review, combining multi-LLMs methods and data engineering.",
       "Exploring trade-offs between performance, scalability, and cost efficiency through iterative experimentation.",
       "Building prototypes and running experiments to evaluate different approaches to AI-assisted code review.",
       "Analyzing how increasing code volume impacts review processes, and proposing more adaptive, AI-driven solutions.",
     ],
-    technologies: ["RAG", "Agentic AI", "Python", "NLP", "LLMs"],
+    technologies: ["Ensemble LLMs", "Data Engineering", "Python", "NLP", "LLMs"],
   },
   {
     title: "Data Researcher - Intern",
